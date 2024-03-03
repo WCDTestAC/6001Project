@@ -1,9 +1,16 @@
-import './App.css'
+import "./App.css";
+import LoginSignup from "./Components/LoginSignup/LoginSignup.jsx";
+import { ProductList } from "./productList.jsx";
+import SignIn from "./Components/LoginSignup/SignIn.jsx";
 
 export default function App() {
   return (
     <main>
-      React ⚛️ + Vite ⚡ + Replit
+      <SignIn />
     </main>
-  )
+
+    // <main>
+    //   React ⚛️ + Vite ⚡ + Replit
+    // </main>
+  );
 }
